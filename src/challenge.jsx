@@ -30,21 +30,14 @@ export default function Challenge() {
   date.setDate(date.getDate() + count);
 
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "10px",
-      }}
-    >
-      <div style={{ display: "flex", gap: "8px" }}>
+    <div className="challenge">
+      <span>This Is Challenge</span>
+      <div className="fields">
         <button onClick={handleDecrementStep}>-</button>
         <span>Step: {step}</span>
         <button onClick={handleIncrementStep}>+</button>
       </div>
-      <div style={{ display: "flex", gap: "8px" }}>
+      <div className="fields">
         <button onClick={handleDecrementCount}>-</button>
         <span>Count: {count}</span>
         <button onClick={handleIncrementCount}>+</button>

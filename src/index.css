@@ -97,3 +97,18 @@ h3 {
 .close:hover {
   color: #7950f2;
 }
+
+/* For Challange */
+
+.challenge {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.fields {
+  display: flex;
+  gap: 8px;
+}

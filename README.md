@@ -12,9 +12,10 @@ This repository is part of my react learning repository react: <br>
 | 5   | [Creating a state variable](./notes/5.md)                | ✅     |       |
 | 6   | [Dont state manually](./notes/6.md)                      | ✅     |       |
 | 7   | [The Mechanics of states](./notes/7&8.md)                | ✅     |       |
-| 8   | [Adding Another piece of state](./notes/7&8.md)          |        |       |
-| 9   | [React Developers tools](./notes/9.md)                   |        |       |
-| 10  | [Updateing state Based on Current State](./notes/10.md)  |        |       |
-| 11  | [More thoughts About State + state Guide](./notes/11.md) |        |       |
+| 8   | [Adding Another piece of state](./notes/7&8.md)          | ✅     |       |
+| 9   | [React Developers tools](./notes/9.md)                   | ✅     |       |
+| 10  | [Updateing state Based on Current State](./notes/10.md)  | ✅     |       |
+| 11  | [More thoughts About State + state Guide](./notes/11.md) | ✅     |       |
 | 12  | [A Vanilla javascript Implementations](./notes/12.md)    |        |       |
-| 13  | [Challenge # 1](./notes/13.md)                           |        |       |
+
+[Next: react-travel-list]()

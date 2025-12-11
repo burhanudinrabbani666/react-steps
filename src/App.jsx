@@ -10,22 +10,32 @@ export default function App() {
   // useState in Practice
   // Dont use Let
   // const [test, setTest] = useState({ name: "Jonas" });
+
   const [step, setStep] = useState(1);
   const [isOpen, setIsOpen] = useState(true);
 
   function handlePrevious() {
-    if (step > 1) setStep(step - 1);
+    if (step > 1)
+      setStep((currentStep) => {
+        return currentStep - 1;
+      });
   }
 
   function handleNext() {
     // step = step + 1; // ❗ Dont set State Manually
     // test.name = "fred"; // ❗ BAD Practice
     // setTest({ name: "Bani" });
-    if (step < 3) setStep(step + 1);
+
+    if (step < 3)
+      setStep((currentStep) => {
+        return currentStep + 1;
+      });
   }
 
   function handleOpen() {
-    setIsOpen(!isOpen);
+    setIsOpen((currentIsOpen) => {
+      return !currentIsOpen;
+    });
   }
 
   return (

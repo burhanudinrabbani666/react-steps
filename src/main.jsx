@@ -7,6 +7,6 @@ import Challenge from "./challenge.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <Challenge />
+    {/* <Challenge /> */}
   </StrictMode>
 );
